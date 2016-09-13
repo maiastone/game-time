@@ -12,7 +12,7 @@
     "type": "git",
     "url": "https://github.com/turingschool-examples/game-time-starter-kit.git"
   },
-  "author": "Steve Kinney",
+  "author": "Maia Stone and Mike Ziccardi",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/turingschool-examples/game-time-starter-kit/issues"
@@ -24,6 +24,8 @@
     "babel-loader": "^6.2.4",
     "chai": "^3.2.0",
     "css-loader": "^0.23.1",
+    "jquery": "^3.1.0",
+    "lodash": "^4.15.0",
     "mocha": "^2.2.5",
     "mocha-loader": "^0.7.1",
     "node-libs-browser": "^1.0.0",
