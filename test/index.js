@@ -1,1 +1,1 @@
-require ('tile-test.js');
+require ('./tile-test');
