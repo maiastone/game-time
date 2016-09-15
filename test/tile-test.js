@@ -1,9 +1,7 @@
 const assert = require('chai').assert;
-const Tile = require ('../lib/tile');
+const Grid = require('../lib/tile');
 // describe function makeTile
-//
 // context game start
-//
 // it should be a function
 //
 // it should have a instantiate the object tile
@@ -14,22 +12,14 @@ const Tile = require ('../lib/tile');
 //
 // -- how does prototype fit in?
 // we want each tile to have the same height and width
-describe('Tile', function() {
+describe('Grid', function() {
 
   it('should be a function', function(){
-    assert.isFunction(Tile);
+    assert.isFunction(Grid);
   });
 
-  it('it should have a instantiate the object tile', function(){
+  it.skip('it should have a instantiate the object tile', function(){
     var tile = new Tile();
     assert.isObject(tile);
   });
-
-  it('should have a method called "moveUp()"', function(){
-    var tile = new Tile();
-    assert.isFunction(tile.moveUp);
-  });
-
-  it.skip('"moveUP()" should replace the value of the cell above it')
-
 });
