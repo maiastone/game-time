@@ -1,3 +1,6 @@
+body {font-family: 'Prompt', sans-serif;
+}
+
 table {
  border: solid black 5px;
  border-spacing: 10px;
@@ -10,4 +13,15 @@ td {
  height:100px;
  border: solid black 3px;
  background: white;
+ font-size: 32px;
+ text-align: center;
+}
+
+header {
+  height: 100px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
 }
