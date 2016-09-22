@@ -1,6 +1,6 @@
 body {
   font-family: 'Prompt', sans-serif;
-  background-color: antiquewhite;
+  background-color: #F0F4C3;
   box-sizing: border-box;
 }
 
@@ -8,7 +8,7 @@ table {
  border: solid black 5px;
  border-spacing: 10px;
  margin: auto;
- background: khaki;
+ background: #CDDC39;
 }
 
 h1 {
@@ -28,83 +28,33 @@ td {
  text-align: center;
 }
 
-button {
-  width: 100px;
-  height: 30px;
-  background-color: gray;
-  border: 2px solid black;
-  outline: none;
-  color: white;
-  font-size: 16px;
-}
-
 div {
   width: 120px;
   height: 60px;
-  background-color: black;
-  border: 5px solid gray;
-  color: white;
-  font-size: 16px;
+  background-color: #FFC107;
+  border: 2px solid black;
+  font-size: 32px;
   margin: 10px auto;
+  line-height: 2em;
+}
 
+
+button {
+  width: 100px;
+  height: 30px;
+  background-color: #BDBDBD;
+  border: 2px solid black;
+  outline: none;
+  font-size: 16px;
 }
 
 button:hover {
-  background-color: khaki;
+  background-color: #FFC107;
   color: black;
 }
-
 
 .info {
   text-align: center;
   margin: auto;
   padding-bottom: 15px;
-}
-
-.t0 {
-  background-color: #F79256;
-}
-
-.t2 {
-  background-color: #F6E27F;
-}
-
-.t4 {
-  background-color: #98A886;
-}
-
-.t8 {
-  background-color: #465C69;
-}
-
-.t16 {
-  background-color: #9BBEC7;
-}
-
-.t32 {
-  background-color: #965834;
-}
-
-.t64 {
-  background-color: #A0903D;
-}
-
-.t128 {
-  background-color: #7E9168;
-}
-
-.t256 {
-  background-color: #3A4C56;
-}
-
-.t512 {
-  background-color: #3A4C56;
-}
-
-.t1024 {
-  background-color: #651D45;
-}
-
-.t2048 {
-  background-color: #3D152B;
 }
