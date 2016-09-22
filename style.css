@@ -1,6 +1,6 @@
 body {
   font-family: 'Prompt', sans-serif;
-  background-color: antiquewhite;
+  background-color: #7E9168;
   box-sizing: border-box;
 }
 
@@ -31,7 +31,7 @@ td {
 button {
   width: 100px;
   height: 30px;
-  background-color: gray;
+  background-color: #465C69;
   border: 2px solid black;
   outline: none;
   color: white;
@@ -41,7 +41,7 @@ button {
 div {
   width: 120px;
   height: 60px;
-  background-color: black;
+  background-color: #3D152B;
   border: 5px solid gray;
   color: white;
   font-size: 16px;
