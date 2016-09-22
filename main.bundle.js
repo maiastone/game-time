@@ -10204,11 +10204,8 @@
 	var $ = __webpack_require__(1);
 	var Tile = __webpack_require__(3);
 	var score = 0;
-
-	$('document').ready(function () {
-	  var savedHighScore = retrieveHighScore();
-	  $('.userScore').text(savedHighScore);
-	});
+	var savedHighScore = retrieveHighScore();
+	$('.userScore').text(savedHighScore);
 
 	function makeHighScore(newScore) {
 	  var highScore = newScore;
@@ -10217,7 +10214,7 @@
 	}
 
 	function retrieveHighScore() {
-	  return parseInt(JSON.parse(localStorage.getItem('highScore')));
+	  return parseInt(JSON.parse(localStorage.getItem('highScore'))) || score;
 	}
 
 	function makeCurrentScore(newScore) {
@@ -10364,7 +10361,7 @@
 	    var score = pullTile.data *= 2;
 	    pullTile.compare = true; // the pull tile was multiplied (and by extension we know it shouldn't continue moving until the next move() is called/arrow is clicked)
 	    score = makeCurrentScore(score);
-	    if (score > retrieveHighScore()) {
+	    if (score > savedHighScore) {
 	      makeHighScore(score);
 	    }
 	  }
