@@ -1,4 +1,7 @@
-body {font-family: 'Prompt', sans-serif;
+body {
+  font-family: 'Prompt', sans-serif;
+  background-color: antiquewhite;
+  box-sizing: border-box;
 }
 
 table {
@@ -8,24 +11,55 @@ table {
  background: khaki;
 }
 
+h1 {
+  text-align: center;
+}
+
+p {
+  font-size: 20px;
+}
+
 td {
  width:100px;
  height:100px;
- border: solid black 3px;
+ border: 3px solid black;
  background: white;
  font-size: 32px;
  text-align: center;
 }
 
-header {
-  height: 100px;
+button {
+  width: 100px;
+  height: 30px;
+  background-color: gray;
+  border: 2px solid black;
+  outline: none;
+  color: white;
+  font-size: 16px;
 }
 
-h1 {
+div {
+  width: 120px;
+  height: 60px;
+  background-color: black;
+  border: 5px solid gray;
+  color: white;
+  font-size: 16px;
+  margin: 10px auto;
+
+}
+
+button:hover {
+  background-color: khaki;
+  color: black;
+}
+
+
+.info {
   text-align: center;
-  font-size: 3em;
+  margin: auto;
+  padding-bottom: 15px;
 }
-
 
 .t0 {
   background-color: #F79256;
