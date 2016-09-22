@@ -1,6 +1,6 @@
 body {
   font-family: 'Prompt', sans-serif;
-  background-color: #7E9168;
+  background-color: #80CED7;
   box-sizing: border-box;
 }
 
@@ -8,7 +8,7 @@ table {
  border: solid black 5px;
  border-spacing: 10px;
  margin: auto;
- background: khaki;
+ background: #FADF63;
 }
 
 h1 {
@@ -31,7 +31,7 @@ td {
 button {
   width: 100px;
   height: 30px;
-  background-color: #465C69;
+  background-color: #ED6A5A;
   border: 2px solid black;
   outline: none;
   color: white;
@@ -41,8 +41,8 @@ button {
 div {
   width: 120px;
   height: 60px;
-  background-color: #3D152B;
-  border: 5px solid gray;
+  background-color: #1F5673;
+  border: 2px solid black;
   color: white;
   font-size: 16px;
   margin: 10px auto;
@@ -50,7 +50,7 @@ div {
 }
 
 button:hover {
-  background-color: khaki;
+  background-color: #FADF63;
   color: black;
 }
 
