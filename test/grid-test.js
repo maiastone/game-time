@@ -1,6 +1,4 @@
 const assert = require('chai').assert;
-const smush = require('../lib/grid');
-// const Tile = require('../lib/tile');
 const Tile = require('../lib/tile');
 const Grid = require('../lib/grid');
 
@@ -13,8 +11,8 @@ describe('allTiles', function() {
 });
 
 describe ('Grid', function() {
-  it('should have a method called "smush"', function(){
-    assert.isFunction(smush);
+  it('should be a function', function(){
+    assert.isFunction(Grid);
   });
 
   it('"smush" should change the data of the tile to the data next to it', function(){
