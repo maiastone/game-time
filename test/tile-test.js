@@ -21,9 +21,10 @@ describe('Tile', function() {
     assert.equal(this.below, null);
   });
 
-  it('should be able to create a new tile', function() {
-    assert.isFunction(Tile.prototype.start);
-  });
+    it('should be able to create a new tile', function() {
+      assert.isFunction(Tile.prototype.start);
+
+    });
     //some function that calls a new tile
     //maybe passes in some data and position
     it.skip('should have a position', function() {
@@ -56,4 +57,7 @@ describe('Tile', function() {
 
     it.skip('should NOT combine with another tile if the data does not match');
 
-});
+
+
+
+    });
